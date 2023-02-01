@@ -1,12 +1,12 @@
 /* Triangle */
 
-.triangle-area {
+.triangle {
   display: flex;
   justify-content: center;
   margin-top: 88px;
 }
 
-.triangle {
+.triangle-area {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +37,13 @@
 }
 
 .area {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.perimeter {
   display: flex;
   align-items: center;
   justify-content: end;
