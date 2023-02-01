@@ -1,0 +1,37 @@
+/* Triangle */
+
+.circle-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 88px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 0 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.calculate-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.radius {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
