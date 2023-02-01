@@ -1,5 +1,96 @@
 body {
-  left: 0;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+}
+
+/* NAVBAR */
+
+.nav-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.logo {
+  padding-left: 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.logo p {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.nav-head ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-right: 100px;
+}
+
+.nav-head ul li a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+}
+
+.nav-head ul li a:hover {
+  color: aliceblue;
+}
+
+/* Triangle */
+
+.triangle-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 88px;
+}
+
+.triangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 0 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.calculate-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.height {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
 }

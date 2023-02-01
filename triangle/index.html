@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculation</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="nav-head">
+      <div class="logo">
+        <a href="/"><p>Two Dimensional</p></a>
+      </div>
+      <ul>
+        <li><a href="/triangle">Triangle</a></li>
+        <li><a href="/rectangle">Rectangle</a></li>
+        <li><a href="/rectangular">Rectangular</a></li>
+        <li><a href="/trapezoid">Trapezoid</a></li>
+        <li><a href="/circle">Circle</a></li>
+      </ul>
+    </div>
+
+    <!-- Calculate Circle Area -->
+    <div class="triangle-area">
+      <div class="triangle">
+        <h2>Calculate Triangle Area (m)</h2>
+        <div class="calculate-area">
+          <div class="base">
+            <p>Base:</p>
+            <input id="base" />
+          </div>
+          <div class="height">
+            <p>Height:</p>
+            <input id="height" />
+          </div>
+          <div class="area">
+            <p>Area:</p>
+            <input id="area" />
+          </div>
+        </div>
+        <div class="btn-calculate-area">
+          <button onclick="calculateTriangleArea()">Calculate</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
