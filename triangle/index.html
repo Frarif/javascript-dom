@@ -25,34 +25,36 @@
     </div>
 
     <!-- Calculate Triangle Area -->
-    <div class="triangle">
-      <div class="triangle-area">
+    <section class="triangle">
+      <form id="triangle-form" class="triangle-area">
         <h2>Calculate Triangle Area (m)</h2>
+
         <div class="calculate-area">
           <div class="base">
             <p>Base:</p>
-            <input id="base" />
+            <input id="base" name="base" />
           </div>
           <div class="height">
             <p>Height:</p>
-            <input id="height" />
+            <input id="height" name="height" />
           </div>
           <div class="area">
             <p>Area:</p>
-            <input id="area" />
+            <input id="area" disabled />
           </div>
           <div class="perimeter">
             <p>Perimeter:</p>
-            <input id="perimeter" />
+            <input id="perimeter" disabled />
           </div>
         </div>
+
         <div class="btn-calculate-area">
-          <button onclick="calculateTriangleAreaAndPerimeter()">
-            Calculate
-          </button>
+          <button type="submit">Calculate</button>
+          <button type="reset">Reset</button>
         </div>
-      </div>
-    </div>
+      </form>
+    </section>
+
     <script src="index.js"></script>
   </body>
 </html>
