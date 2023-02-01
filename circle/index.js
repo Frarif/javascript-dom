@@ -1,4 +1,4 @@
-function calculateCircleArea() {
+function calculateCircleAreaAndPerimeter() {
   const radius = parseInt(document.getElementById("radius").value);
   const area = Math.PI.toFixed(2) * radius ** 2;
   const perimeter = 2 * Math.PI.toFixed(2) * radius;
